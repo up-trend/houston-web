@@ -7,5 +7,10 @@ import 'package:angular/angular.dart';
   directives: [NgFor, NgIf],
 )
 class AppComponent {
+  FirebaseService fb;
   String name = "Deniz";
+
+  AppComponent(this.fb);
 }
+
+
