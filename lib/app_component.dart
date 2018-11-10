@@ -1,5 +1,5 @@
 import 'package:angular/angular.dart';
-import './services/db_service.dart';
+import './src/services/db_service.dart';
 @Component(
   selector: 'my-app',
   styleUrls: ['app_component.css'],
