@@ -11,7 +11,7 @@ class AppComponent {
   String name = "Deniz";
 
   AppComponent(this.fb);
-  List<String> names = ["Deniz", "Çınar", "Efffffffffffffe"];
+  List<String> names = ["Deniz", "Cınar", "Efffffffffffffe"];
 
 }
 
