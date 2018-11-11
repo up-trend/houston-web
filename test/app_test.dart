@@ -5,7 +5,7 @@ import 'package:houston_web/app_component.dart';
 import 'package:houston_web/app_component.template.dart' as ng;
 
 void main() {
-  final testBed =
+/*  final testBed =
       NgTestBed.forComponent<AppComponent>(ng.AppComponentNgFactory);
   NgTestFixture<AppComponent> fixture;
 
@@ -19,5 +19,5 @@ void main() {
     expect(fixture.text, contains('My First AngularDart App'));
   });
 
-  // Testing info: https://webdev.dartlang.org/angular/guide/testing
+  // Testing info: https://webdev.dartlang.org/angular/guide/testing*/
 }
