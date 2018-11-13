@@ -4,7 +4,7 @@ dart:
 before_script:
   - "pub global activate webdev"
 script:
-  - "webdev build -o build"
+  - "webdev build --no-minify -o build"
 deploy:
   provider: pages
   skip-cleanup: true
