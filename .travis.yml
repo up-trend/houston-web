@@ -6,10 +6,8 @@ before_script:
 script:
   - "webdev build --no-release -o build"
 deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep-history: true
+  provider: firebase
+  token: $FB_TOKEN
   local-dir: build/web
   on:
     branch: master
