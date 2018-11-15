@@ -4,7 +4,7 @@ dart:
 before_script:
   - "pub global activate webdev"
 script:
-  - "webdev build --no-release -o build"
+  - "webdev build --no-release -o ./build"
 deploy:
   provider: firebase
   token: $FB_TOKEN
